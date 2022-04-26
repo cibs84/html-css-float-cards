@@ -7,8 +7,7 @@
 
 /* COMMON */
 .container {
-    width: 80%;
-    height: 1500px;
+    width: 60%;
     margin: 0 auto;
 }
 body {
@@ -19,7 +18,10 @@ body {
     display: table;
     clear: both;
 }
-
+a {
+    text-decoration: none;
+    color: #00bdf3;
+}
 
 /* MAIN */
 
@@ -28,33 +30,31 @@ body {
         color: #e53170;
         font-size: 40px;
         font-weight: 700;
-        margin: 30px 0;
+        margin: 20px 0;
         text-align: center;
     }
-    p {
+    h1 + p {
         font-size: 18px;
-        margin: 30px 0;
+        margin: 45px 0 30px 0;
         text-align: center;
     }
 
     /* Section Cards */
     .columns {
-        /* background-color: lightblue; */
 
     }
     .col {
         width: calc(100% / 3);
-        /* background-color: lightcoral; */
         float: left;
     }
     .col .card {
-        padding: 15px;
+        margin: 25px 15px;
+        box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
     }
     .col img {
         width: 100px;
         height: 100px;
         float: left;
-        /* background-color: yellow; */
     }
     .col .card-text {
         width: calc(100% - 100px);
@@ -62,11 +62,11 @@ body {
         float: left;
         height: 100px;
         padding: 10px 15px;
-        line-height: 25px;
+        line-height: 26px;
     }
     .col .card-text .name {
         color: white;
-        font-size: 20px;
+        font-size: 19px;
         font-weight: 700;
     }
     .col .card-text .job {

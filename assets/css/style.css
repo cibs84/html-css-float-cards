@@ -1,0 +1,26 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMON */
+.container {
+    width: 60%;
+    height: 1500px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* MAIN */
+

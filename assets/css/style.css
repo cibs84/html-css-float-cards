@@ -7,13 +7,12 @@
 
 /* COMMON */
 .container {
-    width: 60%;
+    width: 80%;
     height: 1500px;
     margin: 0 auto;
 }
 body {
     font-family: 'Fredoka', sans-serif;
-    text-align: center;
 }
 .clearfix::after {
     content: '';
@@ -30,20 +29,22 @@ body {
         font-size: 40px;
         font-weight: 700;
         margin: 30px 0;
+        text-align: center;
     }
     p {
         font-size: 18px;
         margin: 30px 0;
+        text-align: center;
     }
 
     /* Section Cards */
     .columns {
-        background-color: lightblue;
-        
+        /* background-color: lightblue; */
+
     }
     .col {
         width: calc(100% / 3);
-        background-color: lightcoral;
+        /* background-color: lightcoral; */
         float: left;
     }
     .col .card {
@@ -53,11 +54,26 @@ body {
         width: 100px;
         height: 100px;
         float: left;
-        background-color: yellow;
+        /* background-color: yellow; */
     }
     .col .card-text {
         width: calc(100% - 100px);
-        background-color: lightgreen;
+        background-color: black;
         float: left;
         height: 100px;
+        padding: 10px 15px;
+        line-height: 25px;
+    }
+    .col .card-text .name {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .col .card-text .job {
+        color: white;
+        font-weight: 400;
+    }
+    .col .card-text .e-mail {
+        color: #00bdf3;
+        font-weight: 400;
     }
